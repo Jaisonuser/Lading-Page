@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/classes.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu white-bg-menu">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="#home">jaison developer</a>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#conhecimentos">Conhecimentos</a></li>
+          
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="home" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2 style="font-size: 4rem;">Olá, meu nome é
+          <span style="font-size: 6rem;">Jaison.</span>
+        </h2> 
+        <p>Sou um estudante apaixonado por front-end. Estou sempre em busca de aprender novas tecnologias e tendências para aprimorar minhas habilidades de design e desenvolvimento. Nesta página, você encontrará alguns dos meus projetos de front-end recentes, além de informações sobre minhas habilidades até o momento.
+        </p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/javascript.svg" alt="Logo de HTML, CSS e JS.">
+      </div>
+    </div>
+  </section>
+
+  <section id="projetos" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Projetos</h2>
+ 
+      <div class="grid">
+        
+        <div class="item-grid">
+          <h3>em breve</h3>
+          <p>projeto em andamento</p>
+        </div>
+
+        <div class="item-grid">
+          <h3>em breve</h3>
+          <p>projeto em andamento</p>
+        </div>
+
+        <div class="item-grid">
+          <h3>em breve</h3>
+          <p>projeto em andamento</p>
+        </div>
+
+        <div class="item-grid">
+          <h3>em breve</h3>
+          <p>projeto em andamento</p>
+        </div>
+
+        <div class="item-grid">
+          <h3>em breve</h3>
+          <p>projeto em andamento</p>
+        </div>
+
+        <div class="item-grid">
+          <h3>em breve</h3>
+          <p>projeto em andamento</p>
+        </div>
+
+
+        
+
+      </div>
+      <div class="link-git main-content" >
+        <a href="#"> Repositórios do GitHub</a>
+      </div>
+      
+
+    </div>
+  </section>
+
+  <section id="conhecimentos" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Conhecimentos</h2>
+ 
+      <div class="grid-skill">
+        
+
+        <div class="item-skill">
+          
+          <div class="img-skill">
+            <h2>html5</h2> 
+            <img src="./assets/img/html-5.svg" alt="logo do css3">
+          </div>
+
+          <div class="description-skill">
+            
+          <p>HTML5, versão 5, é uma linguagem de marcação de hipertexto para apresentar e estruturar o conteúdo na web.</p>
+          </div>
+          
+          
+          
+        </div>
+
+        <div class="item-skill">
+          
+          <div class="img-skill">
+            <h2>css3</h2> 
+            <img src="./assets/img/icons8-css3.svg" alt="logo do css3">
+          </div>
+
+          <div class="description-skill">
+            
+          <p>CSS é a sigla para Cascading Style Sheets, ou seja, Folhas de Estilo em Cascatas. É uma maneira de dar estilo ao código criado por linguagens como HTML.</p>
+          </div>
+          
+          
+          
+        </div>
+
+    </div>
+  </section>
+
+  <footer id="footer" class="footer white-bg main">
+    
+    
+      <span>
+        Copyrigth © 2023 <a href="https://www.instagram.com/jaisonz/">jaisonz.</a>
+        Todos os direitos reservados.
+       </span>
+
+    
+    
+  </footer>
+
+
+</body>
+
+</html>
